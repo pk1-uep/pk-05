@@ -7,9 +7,9 @@ public class Application1 {
 
     public static void main(String[] args) {
         String text =
-                "Młodości! ty nad poziomy\n" +
-                "Wylatuj, a okiem słońca\n" +
-                "Ludzkości całe ogromy\n" +
+                "Młodości! ty nad poziomy " +
+                "Wylatuj, a okiem słońca " +
+                "Ludzkości całe ogromy " +
                 "Przeniknij z końca do końca!";
         //Set<String> letters = new HashSet<>();
         Set<String> letters = new TreeSet<>(Collator.getInstance());
