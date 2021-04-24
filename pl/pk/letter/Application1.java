@@ -11,8 +11,8 @@ public class Application1 {
                 "Wylatuj, a okiem słońca " +
                 "Ludzkości całe ogromy " +
                 "Przeniknij z końca do końca!";
-        //Set<String> letters = new HashSet<>();
-        Set<String> letters = new TreeSet<>(Collator.getInstance());
+        Set<String> letters = new HashSet<>();
+        // Set<String> letters = new TreeSet<>(Collator.getInstance());
 
         for (int i = 0; i < text.length(); i++) {
             char ch = text.charAt(i);
